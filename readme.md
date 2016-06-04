@@ -1,6 +1,19 @@
 Test case for issue #...
 ========================
 
+Method `llvm.memset.p0i8.i32` don't define a return type
+
+```scala
+@extern
+object Intrinsics { 
+  def `llvm.memset.p0i8.i32`(dest: Ptr[Byte],
+                             value: Byte,
+                             len: Int,
+                             align: Int,
+                             isvolatile: Boolean) /* : Unit */ = extern
+}
+```
+
 Compile and link are successful
 
 

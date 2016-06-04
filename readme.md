@@ -1,4 +1,4 @@
-Test case for issue #...
+Test case for issue #148
 ========================
 
 Method `llvm.memset.p0i8.i32` don't define a return type
